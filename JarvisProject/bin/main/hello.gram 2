@@ -1,0 +1,23 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ 
+ What are you doing
+ daddy's come home
+ */
+
+grammar hello;
+
+
+
+public <asking> = (introduce yourself |how's everything going|thank you very much|thank you so much|hello jarvis);
+public <bye> = (shut down system|off line|stop listening);
+public <greeting1> = (good)(morning|afternoon|evening);
+public <greeting2> = (good)(morning|afternoon|evening)(jarvis);
+
+public <command01> = (jarvis are you there|come back online jarvis);
+
+public <command1>=(open)(recently file|windows file|download file|code file|academic file|my email|application|email);
+public <command2>=(search)(web|image);
+public <command3>=(play)(music|some music);

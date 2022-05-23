@@ -1,0 +1,24 @@
+#JSGF V1.0;
+
+grammar hello;
+
+
+
+public <asking> = (introduce yourself | Hey adam | how are you | what's up |thank you | thank you so much | you are sweet | you're sweet | you are so sweet | you're so sweet);
+public <reply1>=(I'm good | good | I'm fine);
+public <reply2>=(I'm good | good)(thank you|thanks);
+public <reply3>=(I'm bad | I'm not good | i feel so bad | i feel bad | bad | so bad | awful | so awful | terrible | so terrible);
+
+public <greeting1> = (good)(morning|afternoon|evening|how are you)(adam);
+public <greeting2> = (good)(morning|afternoon|evening);
+
+
+public <bye> = (shut down system|off line|stop listening);
+
+
+
+public <command01> = (come back online adam|wake up daddy's home);
+
+public <command1>=(open)(documents file|download file|windows file|my email| email |application);
+public <command2>=(search)(web|image);
+public <command3>=(play)(music|some music);
